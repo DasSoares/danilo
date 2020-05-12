@@ -33,8 +33,9 @@ void main() {
 
       v.dezenas = dezena;
 
-      //jogos += '[' + OrdenaLista(dezena) + ']';
-      jogos += OrdenaLista(dezena);
+      //jogos += '[' + dezena + ']';
+      //⇲ não finalizado, comente esta linha e descomente a de cima.
+      jogos += OrdenaLista(dezena);       
     }
 
     if (i > 1) {
@@ -51,6 +52,7 @@ int GetRandom(int max) {
 }
 
 String OrdenaLista(String list) {
+  //Não finalizado
   List<String> lista = [list.split(' [$list] ').toString()];
   
   lista.sort();
